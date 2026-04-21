@@ -32,7 +32,7 @@ cd 2_Production
 conda run -n env-rag-porto pip install -r requirements_clean.txt
 ```
 
-### 3. Start the server
+### 3. Start the app
 
 ```bash
 conda run -n env-rag-porto uvicorn api:app --host 0.0.0.0 --port 8001
